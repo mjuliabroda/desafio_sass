@@ -1,0 +1,10 @@
+.footer {
+    grid-area: footer;
+    margin-top: 30px;
+    display: flex;
+    height: 80px;
+    line-height: 60px;
+    background-color: $colorsecundario;
+    font-size:medium;
+    justify-content: center;
+}

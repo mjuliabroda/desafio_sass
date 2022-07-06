@@ -1,0 +1,28 @@
+header {
+    grid-area: header;
+    background-color: $colorsecundario;
+    display: flex;
+    justify-content: space-between;
+    img {
+        width: 90px;
+        margin-left: 20px;
+    }
+    nav {
+    line-height: 70px;
+    display: flex;
+    margin-right: 20px;
+    ul {
+        align-items: center;
+        li {
+            display: inline-block;
+            font-size: 18px;
+            padding: 10px;
+            a {
+                text-decoration: none;
+                color: black;
+                font-weight: 700;
+                }
+            }
+        }
+    }
+}
